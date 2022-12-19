@@ -1,0 +1,15 @@
+repositories{
+
+jcenter()
+maven { url 'https://modmaven.dev/' }
+mavenLocal()
+google()
+
+}
+
+dependencies{
+
+  modImplementation "dev.cafeteria:fake-player-api:0.2.0"
+    include "dev.cafeteria:fake-player-api:0.2.0"
+
+}
